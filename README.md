@@ -10,4 +10,4 @@ Note that tunnel-drive is:
 
 * not highly-available - your personal computer has to be running for the app to be online
 * not scalable - only some amount of users can use this at a time before it will slow down; I'm not sure how many
-* reasonably safe - I built this so I wouldn't have to expose a port in my NAT, but the service can probably be exploited by a clever enough hacker
+* reasonably safe - I built this so I wouldn't have to expose a port in my NAT, and the app is gated by auth, but this probably shouldn't be used for sharing sensitive / top secret data
